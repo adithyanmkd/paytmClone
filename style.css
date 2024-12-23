@@ -115,6 +115,7 @@ body {
   width: 1230px;
   height: 226px;
   margin-top: 10px;
+  padding: 24px 36px;
   background-color: #fff;
   margin-right: auto;
   margin-left: auto;
@@ -122,13 +123,113 @@ body {
   border: 1px solid #d3d3d3;
 }
 
+.flight-search-container div ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.flight-search-container div ul li {
+  margin-right: 26px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.flight-search-container div ul li label {
+  font-weight: 500;
+}
+
+.custom-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  border: 2px solid gray;
+  appearance: none;
+}
+
+.custom-radio:checked {
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: #00b9f5;
+  outline: 2px solid #00b9f5;
+  outline-offset: 2px;
+}
+
+.travel-info-container {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.travel-info-block {
+  display: inline;
+}
+
+.travel-info-block p:first-child {
+  font-size: 12px;
+  color: #878787;
+  font-weight: 300;
+}
+
+.travel-info-block p {
+  color: #3f3f3f;
+  font-size: 12px;
+}
+
+.travel-info-block h3 {
+  padding: 4px 0px;
+  font-weight: 500;
+}
+
+.travel-info-block .line {
+  margin-top: 10px;
+  height: 1px;
+  width: 200px;
+  background: #efefef;
+}
+
+.travel-info-block:nth-child(4) .line {
+  width: 100px;
+}
+
+.travel-info-block:nth-child(5) {
+  height: 46.5px;
+}
+
+.travel-info-block:nth-child(5) h3 {
+  color: #00baf2;
+}
+
+.travel-info-block:nth-child(5) .line {
+  width: 124.5px;
+}
+
+.travel-info-block:nth-child(6) .line {
+  width: 156px;
+}
+
+.flight-search-container .travel-info-container button {
+  background-color: #00baf2;
+  padding: 0 24px;
+  width: 178px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .ticket-offers-container {
-  width: 1230px;
+  width: 1188px;
   display: flex;
   margin-right: auto;
   margin-left: auto;
   margin-top: 32px;
-  padding: 0 16px;
+  /* padding: 0 16px; */
   overflow-y: auto;
   margin-bottom: 80px;
 }
@@ -139,6 +240,29 @@ body {
   border-radius: 14px;
   margin-right: 30px;
 }
+
+.special-fares-container {
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+}
+.special-fares-container p {
+  font-size: 14px;
+  padding-right: 12px;
+  color: #7d7d7d;
+}
+
+.special-fares-container button {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 7px 12.5px;
+  margin-right: 8px;
+  border-radius: 40px;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  color: #868686;
+}
+
 /* paytm travel section ended */
 
 /* Recharge and pay bills section started */
@@ -146,8 +270,6 @@ body {
 .recharge-section {
   height: 382px;
   background-color: #00baf2;
-  margin-left: auto;
-  margin-right: auto;
   padding: 65px 90px;
 }
 
@@ -210,3 +332,81 @@ body {
 }
 
 /* Recharge and pay bills section ended */
+
+/* Download app section started */
+.download-app {
+  width: 1260px;
+  display: flex;
+  padding: 128px 0 120px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-content-block {
+  padding-right: 172px;
+}
+
+.left-content-block img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 48px;
+}
+
+.left-content-block h1 {
+  margin-bottom: 10px;
+  font-size: 54px;
+  line-height: 120%;
+  width: 650px;
+}
+
+.left-content-block p {
+  font-size: 20px;
+  width: 461px;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.left-content-block button {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  padding: 0 24px;
+  border-radius: 50px;
+  border: none;
+  background: #000;
+  color: white;
+}
+
+.left-content-block button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.left-content-block button:hover span svg path {
+  fill: black;
+}
+
+.left-content-block button span svg {
+  margin-left: 10px;
+}
+
+.left-content-block button span svg path {
+  fill: white;
+}
+
+.app-thumbnail {
+  width: 528px;
+}
+/* Download app section ended */
+
+/* Book & Buy on Paytm section started*/
+
+.booking-section {
+  height: 382px;
+  background-color: #0f4a8a;
+  padding: 65px 90px;
+}
+
+/* Book & Buy on Paytm section ended */

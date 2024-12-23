@@ -17,7 +17,7 @@
   <body>
     <!-- navbar started -->
     <nav class="navbar">
-      <img src="./assets/icons/logo.svg" alt="paytm logo" />
+      <img src="./assets/icons/navbar-icons/logo.svg" alt="paytm logo" />
       <ul>
         <li><a href="#">Paytm for consumer</a></li>
         <li><a href="#">Paytm For Business</a></li>
@@ -27,7 +27,10 @@
       </ul>
       <a class="signUp-btn" href="#"
         ><p>Sign In</p>
-        <span><img src="./assets/icons/user-icon.svg" alt="user icon" /></span
+        <span
+          ><img
+            src="./assets/icons/navbar-icons/user-icon.svg"
+            alt="user icon" /></span
       ></a>
     </nav>
     <!-- navbar ended -->
@@ -36,34 +39,107 @@
       <div class="travel-nav">
         <div class="travel-links">
           <a href="#"
-            ><img src="./assets/icons/flight.svg" alt="flight icon" /><span
-              >Flights</span
-            ></a
-          >
-          <a href="#"
-            ><img src="./assets/icons/bus.svg" alt="bus icon" /><span
-              >Bus</span
-            ></a
-          >
-          <a href="#"
-            ><img src="./assets/icons/train.svg" alt="train icon" /><span
-              >Trains</span
-            ></a
+            ><img
+              src="./assets/icons/travel-section-icons/flight.svg"
+              alt="flight icon"
+            /><span>Flights</span></a
           >
           <a href="#"
             ><img
-              src="./assets/icons/intlFlight.svg  "
+              src="./assets/icons/travel-section-icons/bus.svg"
+              alt="bus icon"
+            /><span>Bus</span></a
+          >
+          <a href="#"
+            ><img
+              src="./assets/icons/travel-section-icons/train.svg"
+              alt="train icon"
+            /><span>Trains</span></a
+          >
+          <a href="#"
+            ><img
+              src="./assets/icons/travel-section-icons/intlFlight.svg  "
               alt="internation flight icon"
             /><span>Intl. Flights</span></a
           >
         </div>
         <img
           class="paytmTravelIcon"
-          src="./assets/icons/paytmTravel-icon.svg"
+          src="./assets/icons/travel-section-icons/paytmTravel-icon.svg"
           alt="paytm travel logo"
         />
       </div>
-      <div class="flight-search-container"></div>
+      <div class="flight-search-container">
+        <div>
+          <ul>
+            <li>
+              <input
+                class="custom-radio"
+                type="radio"
+                id="oneWay"
+                name="travel"
+                checked
+              />
+              <label for="oneWay">One Way</label>
+            </li>
+            <li>
+              <input
+                class="custom-radio"
+                type="radio"
+                id="roundTrip"
+                name="travel"
+              />
+              <label for="roundTrip">Round Trip</label>
+            </li>
+          </ul>
+        </div>
+        <div class="travel-info-container">
+          <div class="travel-info-block">
+            <p>From</p>
+            <h3>DEL</h3>
+            <p>Delhi</p>
+            <div class="line"></div>
+          </div>
+          <div>
+            <img
+              src="./assets/icons/travel-section-icons/twoSideArrows.svg"
+              alt="two side arrows"
+            />
+          </div>
+          <div class="travel-info-block">
+            <p>To</p>
+            <h3>BOM</h3>
+            <p>Mumbai</p>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>Departure Date</p>
+            <h3>27 DEC 24</h3>
+            <p>Friday</p>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <h3>+ Add Return</h3>
+            <p>Save More</p>
+            <div class="line"></div>
+          </div>
+          <div class="travel-info-block">
+            <p>Travellers & Cabin Class</p>
+            <h3>1 Traveller</h3>
+            <p>Economy</p>
+            <div class="line"></div>
+          </div>
+          <button>Search Flights</button>
+        </div>
+        <div class="special-fares-container">
+          <p>Special Fares (optional)</p>
+          <div class="buttons-wrapper">
+            <button>Armed Forces</button>
+            <button>Student</button>
+            <button>Senior Citizen</button>
+          </div>
+        </div>
+      </div>
       <div class="ticket-offers-container">
         <img src="./assets/images/travel-offers/offer1.avif" alt="offer 1" />
         <img src="./assets/images/travel-offers/offer2.avif" alt="offer 2" />
@@ -189,5 +265,67 @@
       </div>
     </section>
     <!-- Recharge and Pay bills section ended -->
+    <!-- Download app section started-->
+    <section class="download-app">
+      <div class="left-content-block">
+        <img
+          src="./assets/icons/download-app/paytmUpi.avif"
+          alt="paytm upi icon"
+        />
+        <h1>India's Most-loved Payments App</h1>
+        <p>
+          Recharge & pay bills, book flights & movie tickets, invest in stocks &
+          mutual funds, and do a lot more.
+        </p>
+        <button>
+          Download Paytm App
+          <span>
+            <!-- app store svg started -->
+            <svg
+              width="14"
+              height="16"
+              viewBox="0 0 14 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z"
+                fill="black"
+              />
+            </svg>
+            <!-- app store svg ended -->
+            <!-- playstore svg started -->
+            <svg
+              width="14"
+              height="16"
+              viewBox="0 0 14 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.088012 0.571735C0.0310801 0.726729 0 0.910797 0 1.121V14.8786C0 15.0894 0.0311427 15.2736 0.0881839 15.4286L7.32808 7.9997L0.088012 0.571735ZM0.590122 15.9564C0.85223 16.0466 1.18264 15.9995 1.54068 15.7912L10.0736 10.8165L7.83627 8.52109L0.590122 15.9564ZM10.7221 10.4391L13.3647 8.8987C14.2118 8.40415 14.2118 7.59609 13.3647 7.10217L10.7211 5.561L8.34443 7.99966L10.7221 10.4391ZM10.073 5.18317L1.54068 0.209061C1.18252 0.000250885 0.852017 -0.0466058 0.589868 0.0438429L7.83624 7.47828L10.073 5.18317Z"
+                fill="#101010"
+              />
+            </svg>
+            <!-- playstore svg ended -->
+          </span>
+        </button>
+      </div>
+      <div>
+        <img
+          class="app-thumbnail"
+          src="./assets/images/download-app/paytmAppThumbnail.avif"
+          alt="paytm app thubnail"
+        />
+      </div>
+    </section>
+    <!-- Download app section ended -->
+    <!-- Booking section started -->
+    <section class="booking-section">
+      <h1></h1>
+    </section>
+    <!-- Booking section ended -->
   </body>
 </html>
