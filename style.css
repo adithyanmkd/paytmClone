@@ -566,3 +566,187 @@ body {
 }
 
 /* Paytm payment instruments section ended */
+
+/* Insurance && invesment section started */
+.insurance-section {
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.investment-section {
+  height: 587px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 80px 135px;
+  flex-direction: row-reverse;
+  background: url("./assets/images/investment-section/investment-bg.svg");
+}
+
+.insurance-section .text-content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.investment-section .text-content h2 {
+  width: 390px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 48px;
+}
+
+.insurance-section .text-content p,
+.investment-section .text-content p {
+  width: 526px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 24px 0 30px;
+  line-height: 140%;
+}
+
+.primary-btn {
+  height: 49px;
+  padding: 0px 25px;
+  background-color: #002970;
+  color: white;
+  border-radius: 28px;
+  border: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 17px;
+}
+
+.primary-btn span img {
+  width: 21px;
+}
+
+/* Insurance && investment section ended */
+
+/* financial service section startd */
+.financial-service {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.text-img-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.financial-service h1 {
+  padding-top: 120px;
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+.financial-service .text-content h3 {
+  margin-top: 48px;
+  font-size: 40px;
+  width: 468px;
+}
+
+.financial-service .text-content p {
+  padding-top: 32px;
+  width: 488px;
+  margin-bottom: 45px;
+  font-size: 20px;
+  line-height: 140%;
+}
+/* financial service section ended */
+
+/* business service section started */
+
+.business-service-section {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 180px 0 48px;
+}
+
+.business-service-section h1 {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+.service-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}
+
+.business-service-section .service-card {
+  padding: 80px 0 80px 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  border-radius: 12px;
+}
+
+.business-service-section .service-card .text-content h3 {
+  width: 390px;
+  font-weight: 700;
+  margin-top: 48px;
+  font-size: 36px;
+}
+
+.business-service-section .service-card .text-content p {
+  width: 470px;
+  padding: 24px 0 30px;
+  font-size: 17px;
+  line-height: 160%;
+}
+
+/* business service section ended */
+
+/* business tools section started */
+
+.business-tools-section {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 120px 0;
+}
+
+.business-tools-section h1 {
+  width: 480px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  padding-bottom: 89px;
+}
+
+.business-tools-section .tools-card-wrapper {
+  display: flex;
+  column-gap: 70px;
+}
+
+.business-tools-section .tools-card {
+  width: 240px;
+}
+
+.business-tools-section .tools-card h3 {
+  font-size: 26px;
+  padding: 40px 0 20px;
+  font-weight: 700;
+}
+
+.business-tools-section .tools-card h3 span {
+  display: block;
+}
+
+.business-tools-section .tools-card p {
+  margin: 20px 0 12px;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.business-tools-section .tools-card > span {
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* business tools section ended */
