@@ -316,11 +316,7 @@ body {
 }
 
 .payment-service-card p span {
-  display: block;
   display: flex;
-  align-items: center;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .payment-service-card p span img {
@@ -366,7 +362,7 @@ body {
   margin-bottom: 40px;
 }
 
-.left-content-block button {
+.download-app-button {
   display: flex;
   align-items: center;
   height: 44px;
@@ -377,22 +373,22 @@ body {
   color: white;
 }
 
-.left-content-block button:hover {
+.download-app-button:hover {
   background-color: white;
   color: black;
   border: 1px solid black;
   cursor: pointer;
 }
 
-.left-content-block button:hover span svg path {
+.download-app-button:hover span svg path {
   fill: black;
 }
 
-.left-content-block button span svg {
+.download-app-button span svg {
   margin-left: 10px;
 }
 
-.left-content-block button span svg path {
+.download-app-button span svg path {
   fill: white;
 }
 
@@ -409,4 +405,164 @@ body {
   padding: 65px 90px;
 }
 
+.booking-section h1 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 24px;
+}
+
+.booking-card-wrapper {
+  display: flex;
+}
+
+.booking-card {
+  width: 152px;
+  height: 158px;
+  padding: 16px 11px 16px 16px;
+  margin-right: 32px;
+}
+
+.booking-card:hover {
+  border-radius: 12px;
+  background-color: #0d3e80;
+}
+
+.booking-card .icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 17px;
+}
+
+.booking-card p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.booking-card p span {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  margin-top: 2px;
+}
+
+.booking-card p span img {
+  width: 20px;
+  height: 20px;
+}
+
 /* Book & Buy on Paytm section ended */
+/* Paytm payment instruments section started */
+
+.payment-instruments-section {
+  background-color: #f5f7fa;
+  padding-top: 120px;
+}
+
+.payment-instruments-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  width: 1170px;
+  margin: 0 auto 35px;
+}
+
+.payment-instruments-section .text-img-block {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  width: 1170px;
+  height: 627px;
+  padding: 80px 50px 80px 115px;
+  border-radius: 10px;
+}
+
+.payment-instruments-section .text-img-block .text-content {
+  width: 452px;
+}
+
+.payment-instruments-section .text-img-block .text-content div {
+  display: flex;
+  align-items: center;
+  width: 175px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.payment-instruments-section .text-img-block .text-content div img {
+  width: 89px;
+  height: 77px;
+  margin-right: 12px;
+}
+
+.payment-instruments-section .text-img-block .text-content h1 {
+  margin-left: 0;
+  margin-top: 48px;
+  width: 390px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.payment-instruments-section .text-img-block .text-content .description {
+  width: 432px;
+  font-size: 17px;
+  line-height: 160%;
+  margin: 24px 0 30px 0;
+}
+
+.bank-offer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 48px auto 0;
+  padding-bottom: 130px;
+}
+
+.bank-offer-card {
+  width: 561px;
+  height: 700px;
+  padding: 70px 64px 0px 64px;
+  background: #fff;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.bank-offer-card img:first-child {
+  width: 196px;
+  margin-top: 32px;
+}
+
+.bank-offer-card h2 {
+  padding-top: 28px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.bank-offer-card .description p:first-child {
+  margin: 20px 0 6px;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.bank-offer-card .description p:last-child {
+  width: 336px;
+  margin: 0 0 20px;
+  font-weight: 500;
+  color: #80818a;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.bank-offer-card .description p:last-child span {
+  color: #00baf2;
+  font-weight: 700;
+}
+
+.bank-offer-card img:last-child {
+  width: 463px;
+  margin-top: auto;
+}
+
+/* Paytm payment instruments section ended */
